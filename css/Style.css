@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+
+#BGP{
+	position: fixed;
+	top: 0;
+	left: 0;
+
+	width: 100%;
+	height: 100%;
+	min-width: 800px;
+
+	z-index: -10;
+	zoom:1;
+
+	background-image:url("../images/bgp.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center 0;
+
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+
+	/* border:1px solid #F00; */
+}	
+
+#binclock{
+	width:540px;
+	height: 280px;
+	background-image:url("../images/bg.png");
+	background-repeat: no-repeat;
+	padding-top:18px;		
+	margin: auto;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}		
+
+#clocktab td{
+	width:64px;
+	height:64px;
+	background-image: url("../images/light.png");
+	background-repeat: no-repeat;
+	background-position: 0px -64px;
+}
+#clocktab .ShowHour .apm span{
+	display: block;
+	width: 62px;
+	height:62px;
+	text-align: center;
+	font-size: xx-small;
+	font-family: Arial;
+	color:#B8B8B8;		
+}
+
+#BitValue{ margin: 0 auto;}
+#BitValue td{
+	width: 64px;
+	height: 32px;
+	text-align: center;
+	font-size: small;
+	font-family: Arial;
+	color:#B8B8B8;
+}
